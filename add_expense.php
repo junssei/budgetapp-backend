@@ -1,15 +1,6 @@
 <?php
 header('Content-Type: application/json');
-
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
-// $dbname = "budget_db";
-
-$servername = "";
-$username = "";
-$password = "";
-$dbname = "";
+require 'index.php';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
