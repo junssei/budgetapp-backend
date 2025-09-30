@@ -6,10 +6,10 @@ header('Content-Type: application/json');
 // $password = "";
 // $dbname = "budget_db";
 
-$servername = "sql100.infinityfree.com";
-$username = "if0_40053035";
-$password = "jEKGZjKMUEZKM3";
-$dbname = "if0_40053035_budget_db";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
